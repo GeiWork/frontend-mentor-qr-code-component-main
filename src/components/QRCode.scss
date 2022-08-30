@@ -1,0 +1,31 @@
+@import "../styles/variable.scss";
+
+.qr-code-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $white-color;
+  margin: auto;
+  padding: 20px 0px;
+  width: 280px;
+  border-radius: 20px;
+  flex-direction: column;
+  .qr-code-image {
+    width: 250px;
+    border-radius: 12px;
+  }
+  .qr-code-text-container {
+   padding: 20px 0;
+    font-family: "Outfit";
+    text-align: center;
+    .qr-code-topic {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .qr-code-description {
+      padding-top: 15px;
+      font-size: 15px;
+      color: $grayish-blue-color;
+    }
+  }
+}
